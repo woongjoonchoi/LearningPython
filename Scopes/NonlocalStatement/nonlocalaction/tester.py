@@ -36,6 +36,16 @@ G('egss')
 
 F('bacon')
 
+# def tester(start) :
+#     state = start
+#     def nested(label) :
+#         # nonlocal state
+#         print(label , nested.state)
+#         nested.state +=1 
+#     nested.state = start
+        
+#     return nested
+
 # print(F('ham'))
 
 

@@ -14,3 +14,8 @@ print(x ^ y )
 print(x>y , y<x)
 
 print( 'e' in x)
+
+
+s = {'abcd'}
+
+print(s)

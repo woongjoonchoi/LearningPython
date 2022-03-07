@@ -6,4 +6,4 @@ print(x+2)  # Fraction + int -> Fraction
 
 print(x+2.0)  # Fraction+ float - > float
 
-print(x + Fraction(3,4)) # Fraction + Fraction -> Fraction 
+print(x + Fraction(3,4)) # Fraction + Fraction -> Fraction p

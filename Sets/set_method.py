@@ -12,6 +12,9 @@ print(z)
 z.update(set(['ac','bc']))
 print(z)
 
+z.update('jkl')
+print(z)
+
 z.remove('bc')
 
 print(z)

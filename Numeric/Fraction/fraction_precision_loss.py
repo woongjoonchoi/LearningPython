@@ -15,10 +15,12 @@ print(a)
 print(22517998136852479/13510798882111488)
 # print(a[1]/a[0])
 
-print(a.limit_denominator(10))
+print(f"a limit denominator : {a.limit_denominator(100)}")
 
 
-y = 1.0/7
+
+
+y = 1/7
 
 print(y.as_integer_ratio())
 

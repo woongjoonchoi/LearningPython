@@ -13,4 +13,18 @@ F= tester(0)
 print(F('egg'))
 
 print(F('bana'))
+
+
+def new_tester(start) :
+    def nested(label) :
+        print(label , state[0])
+        state[0] += 1
+    state = [start]
+    return nested
+
+FF = new_tester(0)
+
+FF('dd')
+
+FF('dd')
 # print(F.state)

@@ -1,5 +1,8 @@
 def maker(N) :
+    state= 1
     def action(X) :
+        d = state
+        print(d)
         return X**N
     return action
 

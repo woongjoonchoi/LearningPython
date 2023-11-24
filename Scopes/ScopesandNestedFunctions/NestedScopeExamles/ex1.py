@@ -9,4 +9,13 @@ def f1():
         print(X)
     f2()
     print(X)
-f1()
+# f1()
+
+def f3(X):
+    def f2(X=X):
+        X+=10
+        print(X)
+        
+    f2(X)
+    
+f3(23)
